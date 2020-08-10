@@ -1,0 +1,50 @@
+<!DOCTYPE html> <html>
+    <head>
+        <title>Fill Form 1</title>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+        <script src="p5.play.js"></script>
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-database.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+
+        <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyCZDaRYJwDB_e6wfvgtiOyTFNmadmrb69s",
+            authDomain: "lung-testing-app.firebaseapp.com",
+            databaseURL: "https://lung-testing-app.firebaseio.com",
+            projectId: "lung-testing-app",
+            storageBucket: "lung-testing-app.appspot.com",
+            messagingSenderId: "315143196449",
+            appId: "1:315143196449:web:a69e0fcb55cf316451f860"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        </script>
+
+        <script src="js/Form1.js"></script>
+        <script src="js/User.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body style="background-color: mediumspringgreen;">
+        <script src="sketch.js"></script>
+        <input type="radio" name="Gender" style="margin-top: 190px; margin-left: 300px;" value="Male">Smoker
+        <input type="radio" name="Gender" value="Female">Non-Smoker <br>
+        <button id="submit1" style="margin-top: 0px;" onclick="Submit1()">Submit</button>
+        <a href="stage2.html" class="stage2 hide">Click for Stage 2</a>
+    </body>
+</html>

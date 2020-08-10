@@ -1,0 +1,85 @@
+h1{
+    font-family: 'Rowdies', cursive;
+    font-size: 6rem;
+    margin: 0px;
+    color: blue;
+    text-shadow: chartreuse 5px 5px;
+}
+
+img{
+    width: 500px;
+    margin: 0px;
+}
+
+.stage1{
+    font-family: 'Sevillana', cursive;
+    font-size: 2rem;
+    color: red;
+    text-shadow: royalblue 1px 1px;
+}
+
+.title1{
+    font-family: 'Rowdies';
+    font-size: 3rem;
+    color: darkmagenta;
+    text-shadow: floralwhite 3px 3px;
+}
+
+h2{
+    font-family: 'Sevillana', cursive;
+    font-size: 4rem;
+    color: gold;
+    text-shadow: indigo 3px 3px;
+}
+
+h3{
+    font-family: 'Dancing Script';
+    font-size: 3rem;
+    color: lawngreen;
+    text-shadow: black 2px 2px;
+}
+
+button{
+    font-size: 2.5rem;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Pacifico', cursive;
+    background-color: darkgreen;
+    color: pink;
+    text-shadow: red 2px 2px;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+.stage2{
+    font-family: 'Sevillana', cursive;
+    font-size: 2rem;
+    color: red;
+    text-shadow: royalblue 1px 1px;
+}
+
+.stage3{
+    font-size: 2rem;
+}
+
+.over{
+    font-size: 2rem;
+}
+
+a:link{
+    color: fuchsia;
+    text-decoration: none;
+}
+
+a:visited{
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
